@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main - Tu papa oite
+ * main - main, return
  * Return: Always (0) (Success)
  */
 
