@@ -3,11 +3,11 @@
 #include <time.h>
 
 /**
- * main - main, putchar, return
- * return: always (0) (succesful)
+ * main - Tu papa oite
+ * Return: Always (0) (Success)
  */
 
-	int main(void)
+int main(void)
 
 {
 	int d;
@@ -22,6 +22,7 @@
 }
 }
 	putchar('\n');
+
 	return (0);
 
 }
