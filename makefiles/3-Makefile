@@ -13,7 +13,8 @@ clean:
 oclean:
 	${RM} ${OBJ} ${NAME}
 
-fclean: ${RM} ${OBJ}
+fclean:
+	${RM} ${OBJ}
 	${RM} ${NAME}
 re:
 	${RM} -f ${OBJ} ${NAME}
