@@ -2,42 +2,34 @@
 #include <stdio.h>
 /**
  * print_to_98 - entry point
- * Return: (0)
- * @n: var
+ * new line
+ * @n: variable
  */
 
 void print_to_98(int n)
 {
+	int a, b;
+
 	if (n <= 98)
 	{
-	for (; n <= 98; n++)
-	{
-	if (n == 98)
-	{
-	printf("%d", n);
-	printf("\n");
-	break;
+		for (a = n; a <= 98; n++)
+		{
+			if (a != 98)
+				printf("%d, ", a);
+			else if (a == 98)
+			printf("%d\n", a);
+		}
 	}
-	else
+	else if ( n >= 98)
 	{
-	printf("%d, ", n);
-	}
-	}
-	}
-	else
-	{
-	for (; n >= 98; n--)
-	{
-	if (n == 98)
-	{
-	printf("%d", n);
-	printf("\n");
-	break;
-	}
-	else
-	{
-	printf("%d, ", n);
-	}
-	}
+		for (b = n; b >= 98; b--)
+		{
+	
+	
+			if (b != 98)
+				printf("%d, ", b);
+			else if (b == 98)
+				printf("%d\n", b);
+		}
 	}
 }
