@@ -2,7 +2,6 @@
 
 /**
  * print_most_numbers - start point
- * @a: Var
  * new line
  */
 
