@@ -33,7 +33,7 @@
 			return (NULL);
 		}
 		strcpy(perro->owner, owner);
-		
+
 		perro->age = age;
 
 		return (perro);
