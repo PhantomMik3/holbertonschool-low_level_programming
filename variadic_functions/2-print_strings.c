@@ -19,7 +19,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	{
 		s = va_arg(rags, char *);
 
-		if (rags == NULL)
+		if (s == NULL)
 			printf("(nil)");
 		else
 			printf("%s", s);
@@ -29,6 +29,6 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		}
 	}
 
-	printf("\n");
 	va_end(rags);
+	printf("\n");
 }
