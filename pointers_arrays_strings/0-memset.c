@@ -1,5 +1,3 @@
-#include "main.h"
-
 /**
  * *_memset - function
  * @s: string
@@ -10,11 +8,12 @@
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	char *p = s;
+	unsigned int a;
+	char *ptr = s;
 
-		while (n--)
-		{
-			*p++ = b;
+		while (a < n){
+			*ptr++ = b;
+			a++;
 		}
-	return (s);
+		return (s);
 }
