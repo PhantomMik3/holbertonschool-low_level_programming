@@ -26,4 +26,4 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 	}
 	*head = new_nodo;
 	return (new_nodo);
-
+}
