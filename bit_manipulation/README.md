@@ -1,0 +1,1 @@
+This directory is completely dedicated to the subject of Bit Manipulation, i will immerse myself in the related concepts and complete tasks that are going to test my knowledge and develop it so i can improve my skills in this area.
